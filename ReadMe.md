@@ -8,5 +8,6 @@ you can access the live URL for this web app at
 
 ## Visuals
 
-![screenshot of day planner live site](/Assets/Livesite Screencap.png)
+![alt text](screenshots/Livesite Screencap.png "Description goes here")
 
+# Day-Planner
