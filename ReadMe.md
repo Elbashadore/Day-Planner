@@ -8,6 +8,4 @@ you can access the live URL for this web app at https://elbashadore.github.io/Da
 
 ## Visuals
 
-![alt text](screenshots/Livesite Screencap.png "Description goes here")
-
-# Day-Planner
+![alt text](/screenshots/Livesite Screenshot.png"Screenshot of live site")
