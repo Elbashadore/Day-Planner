@@ -16,7 +16,7 @@
 
  var backgroundRed = {"background-color": "#E6777E"};
  var backgroundGreen = {"background-color": "#49E670"};
- var backgroundGrey = {"background-color": "#947E7F"};
+ var backgroundGrey = {"background-color": "grey"};
 
 
  //variables for saving text content
@@ -43,18 +43,15 @@ $(currentDay).text(now);
 // set the color of list elements based on time
 
 function setListColor1(){
-if (currentTime < "9"){
-    $(listColor1).css(backgroundGreen);
-}
-if (currentTime == "9"){
-    $(listColor1).css(backgroundRed);
-    console.log(currentTime)
-}
-else if (currentTime !== "9" && currentTime > "9") {
+if (currentTime !== 9 && currentTime > 9){
     $(listColor1).css(backgroundGrey);
 }
+else if (currentTime == 9){
+    $(listColor1).css(backgroundRed);
 }
-
+else if (currentTime < 9){
+    $(listColor1).css(backgroundGreen);
+}}
 function setListColor2(){
 if (currentTime < "10"){
     $(listColor2).css(backgroundGreen);
